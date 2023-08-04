@@ -1,10 +1,12 @@
 <template>
   <nav class="navbar h-14 bg-black">
     <div class="container mx-auto flex h-full text-base text-gray">
-      <router-link to="/" class="navbar_link mr-4 flex items-center"
+      <router-link
+        to="/"
+        class="navbar_link mr-4 flex items-center duration-200"
         ><span>Home</span></router-link
       >
-      <router-link to="/app" class="navbar_link flex items-center"
+      <router-link to="/app" class="navbar_link flex items-center duration-200"
         ><span>Xử lý văn bản</span></router-link
       >
     </div>
