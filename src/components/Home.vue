@@ -1,8 +1,8 @@
 <template>
   <div class="body flex-1">
-    <div class="main w-full h-96 text-base flex justify-center items-center">
-      <div class="max-w-4xl flex flex-col justify-center items-center mx-4">
-        <h1 class="main__title text-5xl text-title">Ngữ Hành</h1>
+    <div class="main flex h-96 w-full items-center justify-center text-base">
+      <div class="mx-4 flex max-w-4xl flex-col items-center justify-center">
+        <img src="../../public/img/logo.png" alt="Logo" class="w-36" />
         <p class="main__desc my-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
           mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
@@ -11,16 +11,16 @@
         </p>
         <router-link
           to="/app"
-          class="main__btn w-24 h-8 border-solid border-2 border-black flex justify-center items-center"
+          class="main__btn flex h-8 w-24 items-center justify-center border-2 border-solid border-black"
           ><span>Bắt đầu</span></router-link
         >
       </div>
     </div>
 
     <div
-      class="feature w-full h-96 text-base flex justify-center items-center bg-darkgray"
+      class="feature flex h-96 w-full items-center justify-center bg-darkgray text-base"
     >
-      <div class="max-w-4xl flex flex-col justify-center items-center mx-4">
+      <div class="mx-4 flex max-w-4xl flex-col items-center justify-center">
         <h3 class="feature__title text-5xl text-black">feature 1</h3>
         <p class="feature__desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
@@ -31,7 +31,7 @@
 
     <footer class="footer navbar h-14 bg-black">
       <div
-        class="container mx-auto text-gray flex font h-full text-base items-center"
+        class="font container mx-auto flex h-full items-center text-base text-gray"
       >
         <h5 class="footer__copyright">
           Copyright 2023 Lazy Team, All rights reserved.
