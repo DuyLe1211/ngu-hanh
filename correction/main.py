@@ -96,3 +96,6 @@ def find_mistake():
             idx_text = idx_text[start:]
 
     return mistakes
+
+if __name__ == '__main__':
+    app.run(port=8008)
