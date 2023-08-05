@@ -1,0 +1,7 @@
+flask
+transformers
+tensorflow
+sentencepiece
+underthesea
+pyenchant
+regex
