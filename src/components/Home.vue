@@ -6,7 +6,7 @@
       <div
         class="mx-4 mb-5 flex max-w-4xl flex-col items-center justify-center text-base"
       >
-        <img src="../../public/img/logo.png" alt="Logo" class="w-64" />
+        <img src="/img/logo.png" alt="Logo" class="w-64" />
         <p class="main__desc my-3 text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
           mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,

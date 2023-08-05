@@ -1,13 +1,15 @@
 <template>
-  <div class="body container mx-auto flex items-center justify-center">
+  <div
+    class="body container mx-auto flex w-full flex-col items-center justify-center p-4 md:flex-row md:px-0"
+  >
     <textarea
       name=""
       id=""
-      class="h-5/6 flex-1 resize-none rounded-md border-2 border-solid border-black bg-bg p-3 text-black"
+      class="h-full w-full flex-1 resize-none rounded-md border-2 border-solid border-black bg-bg p-3 text-black"
       placeholder="Nhập văn bản vào đây"
     ></textarea>
     <div
-      class="sidebar ml-3 flex h-5/6 w-2/6 flex-col overflow-scroll rounded-md border-2 border-solid border-black bg-bg p-3"
+      class="sidebar ml-0 mt-3 flex h-64 w-full flex-col overflow-scroll rounded-md border-2 border-solid border-black bg-bg p-3 md:ml-3 md:mt-0 md:h-full md:w-2/6"
     >
       <Error
         error-message="Loại lỗi"

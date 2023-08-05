@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar h-14 bg-black">
+  <nav class="navbar h-14 bg-black pl-4 md:pl-0">
     <div class="container mx-auto flex h-full text-base text-gray">
       <router-link
         to="/"
