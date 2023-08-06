@@ -3,14 +3,17 @@ import underthesea
 import enchant
 from flask import Flask, request
 from transformers import pipeline
+from flask_cors import CORS, cross_origin
 
 corrector = pipeline("text2text-generation", model="bmd1905/vietnamese-correction")
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
-@app.route('/')
+@app.route('/', methods=['POST'])
+@cross_origin()
 def find_mistake():
     text = request.get_data(as_text=True)
-    print(text)
     mistakes = []
 
     p = regex.compile(" {2,}")
